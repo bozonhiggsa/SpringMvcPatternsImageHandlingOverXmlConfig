@@ -2,6 +2,7 @@
 
 Basic patterns for Spring WebMVC, configuration over XML
 Examples of images rendering and uploading from a client
+Example using of static resources
 
 Technologies:
 - Java 8
