@@ -109,7 +109,7 @@ public class MvcController {
                 if (!item.isFormField()) {
                     try (
                             InputStream uploadedStream = item.getInputStream();
-                            OutputStream out = new FileOutputStream("d:/resume2.pdf")) {
+                            OutputStream out = new FileOutputStream("f:/resume2.pdf")) {
 
                         IOUtils.copy(uploadedStream, out);
                         out.flush();
@@ -141,7 +141,7 @@ public class MvcController {
                 if (!item.isFormField()) {
                     try (
                             InputStream uploadedStream = item.openStream();
-                            OutputStream out = new FileOutputStream("d:/resume2.pdf")) {
+                            OutputStream out = new FileOutputStream("f:/resume2.pdf")) {
 
                         IOUtils.copy(uploadedStream, out);
                         out.flush();
