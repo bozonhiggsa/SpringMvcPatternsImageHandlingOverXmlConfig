@@ -8,7 +8,7 @@
     <name>springMvcPatterns</name>
 
     <properties>
-        <spring.version>5.0.2.RELEASE</spring.version>
+        <spring.version>5.2.9.RELEASE</spring.version>
     </properties>
 
     <dependencies>
